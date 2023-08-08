@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: xiaye-alist
     env: docker
     repo: https://github.com/xiaye6783/alist-render.git # optional
     region: oregon # optional (defaults to oregon)
